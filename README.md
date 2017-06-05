@@ -9,3 +9,5 @@ Actions u can do with it:
   · Update users or user
   · Delete users or user
   · Export info to an excel
+
+To init the project start both server from front and back and create a table in your mongodb.
