@@ -1,0 +1,27 @@
+{
+  "name": "nodeapis",
+  "version": "1.0.0",
+  "description": "apis for react",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "express",
+    "mongo"
+  ],
+  "author": "xose",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-mongoose-generator": "^3.0.2",
+    "method-override": "^2.3.9",
+    "mongodb": "^2.2.27",
+    "mongoose": "^4.10.2",
+    "msexcel-builder": "0.0.2",
+    "nodemon": "^1.11.0"
+  }
+}
