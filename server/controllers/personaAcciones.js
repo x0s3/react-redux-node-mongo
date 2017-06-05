@@ -6,7 +6,7 @@ module.exports = class Pers {
 
         let workbook = excelbuilder.createWorkbook('./', 'personas.xlsx');
         // Create a new worksheet with X columns and Y rows
-        let sheet1 = workbook.createSheet('sheet1', (persona.length + 1), Object.keys(persona[0]).length);
+        let sheet1 = workbook.createSheet('sheet1', Object.keys(persona[0]).length, (persona.length + 1));
         // Fill some data
         sheet1.set(1, 1, 'Nombre');
         sheet1.set(2, 1, 'Edad');
